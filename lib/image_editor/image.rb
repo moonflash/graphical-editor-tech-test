@@ -22,7 +22,7 @@ module ImageEditor
       (1..@width).each do |x|
         @data[x] = {}
         (1..@height).each do |y|
-          @data[x][y] = 'O'
+          @data[x][y] = '0'
         end
       end
     end
