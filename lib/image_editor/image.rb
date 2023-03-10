@@ -11,6 +11,10 @@ module ImageEditor
       init_data
     end
 
+    def set(x_axis:, y_axis:, colour:)
+      data[x_axis.to_i][y_axis.to_i] = colour
+    end
+
     private
 
     def init_data
